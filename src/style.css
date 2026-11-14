@@ -100,6 +100,9 @@ header{
         grid-template-areas: 'a'
                             'b';
     }
+    #icon{
+        height: 80px;
+    }
 }
 @media (max-width: 610px){
     #download-section p{
@@ -133,10 +136,10 @@ header{
 }
 @keyframes go-away {
     50%{
-        transform: translateX(60vw);
+        transform: translateX(70vw);
     }
     50.001%{
-        transform: translateX(-60vw);
+        transform: translateX(-70vw);
     }
     100%{
         transform: translateX(0);
