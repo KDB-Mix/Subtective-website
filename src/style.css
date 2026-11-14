@@ -74,6 +74,9 @@ header{
     padding: 10px;
     border-radius: 5px;
 }
+#itch-link:hover{
+    animation: bounce .3s forwards;
+}
 @media (max-width: 750px){
     body{
         font-size: .5rem;
@@ -91,5 +94,19 @@ header{
 @media (max-width: 610px){
     #download-section p{
         font-size: 14px;
+    }
+}
+@keyframes bounce {
+    33%{
+        transform: translateY(-10px);
+    }
+    67%{
+        transform: translateY(0px);
+    }
+    80%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }
