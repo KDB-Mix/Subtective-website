@@ -1,5 +1,7 @@
 Just a website I made for my game Subtective, my first game jam entry
 
+It is built with the theme "trut no one". You are a submarine, stuck in the ocean, trying to get out. The locals will guide you, but some might lie to you.
+
 website: https://kdb-mix.github.io/Subtective-website/
 
 game's repo: https://github.com/KDB-Mix/subtective
